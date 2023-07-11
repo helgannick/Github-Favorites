@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Favorites</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="js/main.js" type="module" defer></script>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Github Favorites</h1>
+            <div class="search">
+                <label class="sr-only" for="input-search">Usuário do Github</label>
+                <input id="input-search" type="text" placeholder="Usuário do Github">
+                <button>&plus;</button>
+            </div>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Users</th>
+                    <th>Repositories</th>
+                    <th>Followers</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+          
+
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/maykbrito.png" alt="imagem de Mayk Brito">
+                        <a href="https://github.com/maykbrito" target="_blank">
+                            <p>Mayk Brito</p>
+                            <span>maykbrito</span>
+                        </a>
+                    </td>
+                    <td class="repositories">
+                        76
+                    </td>
+                    <td class="followers">
+                        9589
+                    </td>
+                    <td>
+                    <button class="remove">&times;</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
